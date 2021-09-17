@@ -1,4 +1,6 @@
-makeCacheMatrix is a function which creates a special "matrix" object that can cache its inverse for the input (which is an invertible square matrix)
+Our goal in the experiment is to write a pair of functions, namely "makeCacheMatrix" and "cacheSolve" that cache the inverse of a matrix.
+
+makeCacheMatrix is a function which creates a special "matrix" object that can cache its inverse for the input (an invertible square matrix)
 
 library(MASS)
 makecachematrix<-function(x=matrix()){
